@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Weather Forecast</string>
+    <string name="text_location_hint">Enter your location</string>
+    <string name="text_date_title">Date:\u0020</string>
+    <string name="text_temperature_title">Average Temperature: %s\u2103</string>
+    <string name="text_pressure_title">Pressure:\u0020</string>
+    <string name="text_humidity_title">Humidity: %s%%</string>
+    <string name="text_description_title">Description:\u0020</string>
+    <string name="text_get_weather">Get Weather</string>
+    <string name="text_not_found_result">Not found result</string>
+    <string name="title_tools_test">Module Title</string>
+    <string name="error_network">Network has problem</string>
+    <string name="error_generic">Error occur</string>
+    <string name="error_persistence">Persistence error</string>
+    <string name="error_response">Response occur error</string>
+    <string name="error_unknown">Unknown error</string>
+</resources>

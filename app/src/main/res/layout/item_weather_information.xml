@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.AppCompatTextView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/tvWeatherInfo"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:lineSpacingExtra="5dp"
+    android:padding="@dimen/padding_small"
+    tools:text="Date: Sat, 14 March 2020\n Date: Sat, 14 March 2020\n Date: Sat, 14 March 2020" />
