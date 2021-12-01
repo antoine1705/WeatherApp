@@ -9,7 +9,7 @@ api : [Open Weather Map](https://api.openweathermap.org/)
 * [MVVM](https://developer.android.com/jetpack/guide)
 * [Clean Architecture](https://github.com/android10/Android-CleanArchitecture)
 * [Dependency Injection](https://en.wikipedia.org/wiki/Dependency_injection)
-    - [Service Locator](https://en.wikipedia.org/wiki/Service_locator_pattern)
+* [Service Locator](https://en.wikipedia.org/wiki/Service_locator_pattern)
 
 ## Libraries
 
