@@ -66,8 +66,6 @@ api : [Open Weather Map](https://api.openweathermap.org/)
 
 ## Checklist
 
-### Has done
-
 * [x] Programming language: Kotlin
 * [x] Design app 's architecture (MVVM - Clean Architecture)
 * [x] Apply LiveData mechanism
