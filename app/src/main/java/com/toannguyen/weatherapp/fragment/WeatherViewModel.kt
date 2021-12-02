@@ -1,6 +1,7 @@
 package com.toannguyen.weatherapp.fragment
 
 import androidx.lifecycle.MutableLiveData
+import androidx.lifecycle.viewModelScope
 import com.toannguyen.domain.models.WeatherModel
 import com.toannguyen.domain.usecase.GetWeatherInfoUseCase
 import com.toannguyen.weatherapp.base.BaseViewModel
@@ -15,7 +16,7 @@ class WeatherViewModel(
     val itemsObs = MutableLiveData<List<WeatherAdapter.AdapterItem>>()
 
     fun getWeatherForecast(cityName: String) {
-        getWeatherInfoUseCase(cityName) {
+        getWeatherInfoUseCase(viewModelScope, cityName) {
             it.handleResult(::handleSuccess, ::handleFailure, ::handleState)
         }
     }

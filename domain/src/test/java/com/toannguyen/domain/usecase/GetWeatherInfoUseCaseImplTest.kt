@@ -38,7 +38,7 @@ class GetWeatherInfoUseCaseImplTest {
         } returns response
 
         var position = 0
-        useCase.invoke(city) {
+        useCase(this, city) {
             val expectation = listOf(
                 Result.State.Loading,
                 response,
@@ -58,7 +58,7 @@ class GetWeatherInfoUseCaseImplTest {
         } returns response
 
         var position = 0
-        useCase.invoke(city) {
+        useCase.invoke(this, city) {
             val expectation = listOf(
                 Result.State.Loading,
                 response,
@@ -78,7 +78,7 @@ class GetWeatherInfoUseCaseImplTest {
         } returns response
 
         var position = 0
-        useCase.invoke(city) {
+        useCase.invoke(this, city) {
             val expectation = listOf(
                 Result.State.Loading,
                 response,

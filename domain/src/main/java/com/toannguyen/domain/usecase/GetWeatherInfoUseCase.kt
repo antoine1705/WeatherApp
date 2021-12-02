@@ -18,7 +18,7 @@ class GetWeatherInfoUseCaseImpl(
     override suspend fun run(params: String): ReceiveChannel<SimpleResult> = produce {
         // Started loading
         send(Result.State.Loading)
-        // Get person from persistence and send it, synchronous
+        // Get data
         send(weatherRepository.getWeatherInfo(params))
         // Ended loading
         send(Result.State.Loaded)
