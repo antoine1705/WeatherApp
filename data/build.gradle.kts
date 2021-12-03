@@ -43,10 +43,9 @@ dependencies {
     implementation(Retrofit.runtime)
     implementation(Retrofit.gson)
 
-    implementation(Common.core_ktx)
-    implementation(Common.junit)
-
     implementation(Room.runtime)
     implementation(Room.coroutines)
     kapt(Room.compiler)
+
+    testImplementation(Common.junit)
 }
